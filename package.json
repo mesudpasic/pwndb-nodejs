@@ -1,0 +1,20 @@
+{
+  "name": "pwndb-api",
+  "version": "1.0.0",
+  "description": "tor api for pwndb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mesud pasic",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "tor-request": "^3.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "node-fetch": "^2.6.1",
+    "tor": "0.0.1"
+  }
+}
